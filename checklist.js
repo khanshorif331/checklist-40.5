@@ -3,6 +3,15 @@
 // ১. setTimeout এর ভিতরে একটা কিছু কনসোল লগ করবে যেটা সাড়ে তিন সেকেন্ড পরে আউটপুট দেখাবে। 
 
 
+const friend = 'shojib'
+const noTime ='kibria'
+console.log(noTime);
+
+const showLate =()=>{
+    console.log(friend);
+}
+
+const lateLotif = setTimeout(showLate,3500)
 
 
 
