@@ -5,10 +5,10 @@
 
 const friend = 'shojib'
 const noTime ='kibria'
-console.log(noTime);
+// console.log(noTime);
 
 const showLate =()=>{
-    console.log(friend);
+    // console.log(friend);
 }
 
 const lateLotif = setTimeout(showLate,3500)
@@ -17,12 +17,29 @@ const lateLotif = setTimeout(showLate,3500)
 
 // ২. prompt দিয়ে ইউজারের কাছ থেকে একটা সংখ্যা নাও। সেটার সাথে ২০০যোগ করো। যোগ করতে গেলে parse করা লাগলে সেটা করো। তারপর সেই রেজাল্টকে alert দিয়ে আউটপুট দেখাও 
 
+/* const numberPrompt = prompt('Enter a number to be surprised..so whats your number???')
+const number = parseInt(numberPrompt)
 
+const userReact=(number)=>{
+    const surprised =number+200
+    console.log(surprised);
+    return surprised
+}
+alert(userReact(number))
+ */
 
 
 
 // ৩. ব্রাউজারে একটা confirm করে জিজ্ঞেস করো তুমি কি তোমার ওয়েবসাইট এর লোকেশন দেখতে চাও। যদি বলে দেখতে চাই তাহলে সেই ওয়েবসাইট এর লোকেশন এর href জিনিসটা কনসোল লগ করে দেখাও 
 
+
+const decision = confirm('Do you want to see the location of the website???')
+if(decision === true){
+    console.log(window.location.href)
+}
+else{
+    console.log('taile dure giya mor beta');
+}
 
 
 
@@ -35,7 +52,12 @@ const lateLotif = setTimeout(showLate,3500)
 
 
 
+
+
+
 // ৫. local storage আর session storage এর মধ্যে তিনটা পার্থক্য লিখে ফেলো। ইংরেজিতে। (নিজের মতো করে লিখবে )
+
+// difference between localStorage and seession storage
 
 
 
